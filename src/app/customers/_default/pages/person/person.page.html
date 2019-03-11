@@ -1,0 +1,8 @@
+<div class="jumbotron">
+  <div class="container">
+    <h2>Person</h2>
+    <br/>
+    <app-input *ngFor="let field of fields" [label]="field" [placeholder]="'Type the ' + field + '...'"></app-input>
+    <br/>
+    <button type="button" class="btn btn-lg btn-block text-light" id="submit-button">Submit</button>
+</div>
